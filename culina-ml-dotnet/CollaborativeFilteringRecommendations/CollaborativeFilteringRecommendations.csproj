@@ -17,4 +17,16 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup Label="CollaborativeFilteringRecipeRecommendations">
+    <None Include="CollaborativeFilteringRecipeRecommendations.consumption.cs">
+      <DependentUpon>CollaborativeFilteringRecipeRecommendations.mbconfig</DependentUpon>
+    </None>
+    <None Include="CollaborativeFilteringRecipeRecommendations.training.cs">
+      <DependentUpon>CollaborativeFilteringRecipeRecommendations.mbconfig</DependentUpon>
+    </None>
+    <None Include="CollaborativeFilteringRecipeRecommendations.zip">
+      <DependentUpon>CollaborativeFilteringRecipeRecommendations.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
